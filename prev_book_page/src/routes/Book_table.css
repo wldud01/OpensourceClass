@@ -1,0 +1,26 @@
+@media only screen and (min-width: 100px) {
+
+.MuiTableCell-root.MuiTableCell-head{
+    text-align: center;
+    height:10px;
+}
+.MuiTableBody-root.MuiTableRow-root{
+    height:100px;
+
+}
+.MuiTableRow-root .MuiTableCell-root.MuiTableCell-body{
+  text-align: center;
+  padding:10px;
+}
+.MuiTableRow-root:hover{
+    box-shadow:2px 2px 3px rgba(204, 204, 204, 0.9);
+}
+.book_img{
+    width:90px;
+    height:100px;
+}
+
+
+}
+@media only screen and (min-width: 1609px) {
+}

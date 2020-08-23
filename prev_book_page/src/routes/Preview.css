@@ -1,0 +1,95 @@
+@media only screen and (min-width: 100px) {
+#main{
+    position: relative;
+    width:1535px;
+    height:720px;
+    background: #f0efef;
+}
+#preview_back{
+    position: absolute;
+    width:1200px;
+    height:600px;
+    background: rgb(49, 49, 49);
+    left:170px;
+    margin-top: 40px;
+    text-align: center;
+    color:white;
+    
+}
+
+#preview_back h2{
+    font-size: 10pt;
+    margin-top: 15px;
+    letter-spacing: 2px;
+}
+#reporter{
+    position: absolute;
+}
+#extract{
+    position: absolute;
+    left:735px;
+    bottom: 30px;
+    width: 80px;
+    height: 30px;
+
+    
+}
+.extract_btn{
+    width: 80px;
+    height: 30px;
+    font-size:12pt;
+    border:1px solid rgb(119, 119, 119);
+    border-radius: 3px;
+    outline:0px;
+    cursor: pointer;
+
+}
+.extract_btn:hover{
+    border:1px solid rgb(97, 97, 97);
+    background: rgb(226, 226, 226);
+    border-radius: 3px;
+}
+}
+@media only screen and (min-width: 1609px) {
+    #main{
+        position: absolute;
+        width:116.5rem;
+        height:70rem;
+        background: #f0efef;
+    }
+
+    #preview_back{
+        position: absolute;
+        width:90rem;
+        height:57rem;
+        background: rgb(49, 49, 49);
+        left:200px;
+        margin-top: 5rem;
+        text-align: center;
+        color:white;
+        
+    }
+    #extract{
+        position: absolute;
+        left:890px;
+        bottom: 75px;
+        width: 7rem;
+        height: 30px;
+    
+        
+    }
+    .extract_btn{
+        width: 7rem;
+        height: 40px;
+        font-size:12pt;
+        font-weight: bold;
+    
+    }
+    .extract_btn:hover{
+        border:1px solid black;
+        background: rgb(255, 255, 255);
+        border-radius: 3px;
+    
+    }
+
+}
